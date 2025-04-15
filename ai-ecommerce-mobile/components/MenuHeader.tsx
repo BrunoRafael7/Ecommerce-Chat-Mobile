@@ -19,7 +19,7 @@ const MenuHeader = () => {
     >
     <Menu.Item title={<Text>Perfil</Text>} />
     <Menu.Item title={<Text>Configurações</Text>}/>
-    <Menu.Item title={<Text>Conversar com a IA</Text>}/>
+    <Menu.Item onPress={() => router.replace('/changeName')} title={<Text>Conversar com a IA</Text>}/>
     <Divider />
     <Menu.Item onPress={() => router.replace('/login')} title={<Text>Logout</Text>} />
 </Menu>

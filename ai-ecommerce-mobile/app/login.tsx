@@ -29,7 +29,7 @@ const login = () => {
     }
 
     const handleErrorForm = () => {
-        let hasError = false;
+        /*let hasError = false;
         if(!password.value) {
           setPassword({value: password.value, dirty: true})
           hasError = true;
@@ -45,9 +45,9 @@ const login = () => {
           hasError = true
         }
     
-        if(!hasError) {
+        if(!hasError) {*/
             router.replace('/(tabs)/home')
-        }
+        //}
       } 
   return (
     <LinearGradient colors={['#0EDFBD', '#0950AB']}
